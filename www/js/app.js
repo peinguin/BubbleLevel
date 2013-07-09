@@ -8,13 +8,20 @@ requirejs.config({
         marionette: 'backbone.marionette.min'
     },
     shim: {
+    	jquery : {
+	    	exports : 'jQuery'
+	    },
         underscore: {
             exports: '_'
         },
         backbone: {
             deps: ["underscore", "jquery"],
             exports: "Backbone"
-        }
+        },
+        marionette : {
+	    	deps : ['jquery', 'underscore', 'backbone'],
+	    	exports : 'Marionette'
+	    }
     }
 });
 

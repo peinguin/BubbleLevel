@@ -5,7 +5,11 @@ define(function (require) {
 
     $(function () {
         document.addEventListener("deviceready", function () {
-            navigator.notification.alert("Cordova is working: " + location.href);
+            require(['app/app'], function(app){
+            	app.start();
+            },function(e){
+            	console.log(e);
+            });
         }, false);
     });
 });

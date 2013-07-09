@@ -1,28 +1,35 @@
-define(
-	[
-		'marionette'
-	]
-	function (Marionette) {
-
-console.log(_)
-console.log($)
-console.log(Backbone)
-console.log(Marionette)
+define(['marionette', 'app/views/main'], function (Marionette, MyView) {
 
 		var BubbleLevel = new Marionette.Application();
 
 		BubbleLevel.addRegions({
-		  mainView : '#mainView'
+		 	mainView : '#mainView'
 		});
 
-		BubbleLevel.on('initialize:after', function(){
-		 	Backbone.history.start();
+		BubbleLevel.addInitializer(function(options){
+			navigator.accelerometer.getCurrentAcceleration(
+				function(coords){
+					coords.toJSON = function(){
+						return JSON.stringify({
+							"timestamp": this.timestamp,
+							"x": this.x,
+							"y": this.y,
+							"z": this.z
+						});
+					}
+					var myView = new MyView({model:coords});
+					BubbleLevel.mainView.show(myView);
+				},
+				function(){navigator.notification.alert('accelerometer failed');}
+			);
 		});
 
-		return{
-			initialize: function(){
-				BubbleLevel.start();
-			}
-		}
+		BubbleLevel.addInitializer(function(options){
+			Backbone.history.start();
+		});
+
+		BubbleLevel.on('initialize:after', function(){});
+
+		return BubbleLevel;
 	}
 );

@@ -113,3 +113,14 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+#piptyc{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 5vh;
+    background-color: #000;
+    display: block;
+    top:50vh;
+    left:50vw;
+    position: absolute;
+}
