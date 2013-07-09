@@ -4,7 +4,7 @@ define(function (require) {
     var $ = require('jquery');
 
     $(function () {
-        document.addEventListener("deviceready", function () {console.log('deviceready');
+        document.addEventListener("deviceready", function () {
             require(['app/app'], function(app){
             	app.start();
             },function(e){

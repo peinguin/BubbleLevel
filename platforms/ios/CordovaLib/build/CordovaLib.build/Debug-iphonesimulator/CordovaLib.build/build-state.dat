@@ -2,91 +2,91 @@ TCordovaLib
 v5
 r1
 cCheck dependencies
-cCpHeader Classes/CDVExif.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVExif.h
 cCpHeader Classes/CDVJpegHeaderWriter.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVJpegHeaderWriter.h
+cCpHeader Classes/CDVExif.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVExif.h
 cCpHeader Classes/CDVCamera.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCamera.h
 cCpHeader Classes/NSDictionary+Extensions.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
 cCpHeader Classes/CDVContacts.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVContacts.h
 cCpHeader Classes/CDVFile.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVFile.h
-cCpHeader Classes/CDVLocation.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVLocation.h
 cCpHeader Classes/CDVInvokedUrlCommand.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/CDVLocation.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVLocation.h
 cCpHeader Classes/CDVNotification.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVNotification.h
 cCpHeader Classes/NSData+Base64.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVSound.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVSound.h
 cCpHeader Classes/CDVReachability.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVReachability.h
-cCpHeader Classes/CDVContact.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVContact.h
+cCpHeader Classes/CDVSound.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVSound.h
 cCpHeader Classes/CDVAccelerometer.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVAccelerometer.h
+cCpHeader Classes/CDVContact.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVContact.h
 cCpHeader Classes/CDVPluginResult.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVPluginResult.h
 cCpHeader Classes/CDVFileTransfer.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVFileTransfer.h
-cCpHeader Classes/CDVCapture.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCapture.h
 cCpHeader Classes/CDVConnection.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVConnection.h
+cCpHeader Classes/CDVCapture.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCapture.h
 cCpHeader Classes/CDVPlugin.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVPlugin.h
 cCpHeader Classes/CDVDebug.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVDebug.h
 cCpHeader Classes/CDVSplashScreen.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVSplashScreen.h
 cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
 cCpHeader Classes/CDVBattery.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVBattery.h
 cCpHeader Classes/CDVWhitelist.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVViewController.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVViewController.h
 cCpHeader Classes/CDVURLProtocol.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDV.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDV.h
 cCpHeader Classes/CDVCommandDelegate.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDVAvailability.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDV.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDV.h
+cCpHeader Classes/CDVViewController.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVViewController.h
 cCpHeader Classes/CDVLocalStorage.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/CDVLogger.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVLogger.h
+cCpHeader Classes/CDVAvailability.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVAvailability.h
 cCpHeader Classes/UIDevice+Extensions.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/CDVLogger.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVLogger.h
 cCpHeader Classes/CDVDevice.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVDevice.h
 cCpHeader Classes/NSArray+Comparisons.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVCommandQueue.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCommandQueue.h
 cCpHeader Classes/CDVEcho.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVEcho.h
-cCpHeader Classes/CDVGlobalization.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVGlobalization.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVCommandQueue.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCommandQueue.h
 cCpHeader Classes/CDVInAppBrowser.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVInAppBrowser.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVGlobalization.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVGlobalization.h
 cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
 cCpHeader Classes/CDVConfigParser.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVConfigParser.h
 cCpHeader Classes/CDVJSON.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
 cCpHeader Classes/CDVWebViewDelegate.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
 cCpHeader Classes/CDVTimer.h /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/include/Cordova/CDVTimer.h
 cProcessPCH /var/folders/lj/9jmhrqcn07x13c6yy340fcp80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dkfteramkxlcveevxmspykrgoblg/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContacts.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVNotification.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocation.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCamera.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVCamera.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContacts.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVContacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVFile.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVFile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocation.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVLocation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVNotification.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVReachability.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVReachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContact.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVSound.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVSound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVContact.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVContact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVFileTransfer.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVFileTransfer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConnection.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCapture.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVCapture.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVSplashScreen.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVSplashScreen.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVBattery.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVBattery.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLogger.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVDevice.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVGlobalization.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVGlobalization.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInAppBrowser.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVInAppBrowser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJpegHeaderWriter.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVJpegHeaderWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLibtool /Users/peinguin/Desktop/BubbleLevel/platforms/ios/build/libCordova.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
@@ -870,7 +870,7 @@ s2841800
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9a5d2f4c538cb741^51bc5a4c538cb741^---0#1#0#--18"Check dependencies36"80BFC889-F328-449D-80CF-0B718E93AC8F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies30f410bd598cb741^80f049bd598cb741^---0#1#0#--18"Check dependencies36"AF784D22-7654-4C8A-B6D9-726FF5BFD431-
 
 CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVAccelerometer.o /Users/peinguin/Desktop/BubbleLevel/platforms/ios/CordovaLib/Classes/CDVAccelerometer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s395072113.404199

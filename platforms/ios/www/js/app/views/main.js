@@ -4,7 +4,7 @@ define(['marionette', 'text!app/templates/main.htt'],function (Marionette, my_te
 		template : function(serialized_model) {
 		    return _.template(my_template_html, {});
 		},
-		initialize : function() {
+                                              initialize : function() {console.log('init',navigator.accelerometer);
 			var view = this;
 	     	this.watchID = navigator.accelerometer.watchAcceleration(
 				function(acceleration){
