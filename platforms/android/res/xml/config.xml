@@ -72,4 +72,5 @@
     <preference name="exit-on-suspend" value="false" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+    <preference name="orientation" value="portait" />
 </widget>

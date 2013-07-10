@@ -4,7 +4,7 @@ define(['marionette', 'text!app/templates/main.htt'],function (Marionette, my_te
 		template : function(serialized_model) {
 		    return _.template(my_template_html, {});
 		},
-		initialize : function() {
+        initialize : function() {
 			var view = this;
 	     	this.watchID = navigator.accelerometer.watchAcceleration(
 				function(acceleration){
@@ -13,28 +13,27 @@ define(['marionette', 'text!app/templates/main.htt'],function (Marionette, my_te
 						top:  Math.round(offset.top - acceleration.y),
 						left: Math.round(offset.left - acceleration.x)
 					};
-					console.log('acceleration');
-					console.log(acceleration);
-					console.log('css');
-					console.log(css);
-					console.log('pre top');
-					console.log(view.$el.css('top'));
-					console.log('pre left');
-					console.log(view.$el.css('left'));
-					console.log('pre offset');
-					console.log(view.$el.offset());
+
+					if(css.top < 0)
+						css.top = 0;
+
+					if(css.left < 0)
+						css.left = 0;
+
+					var $window = $(window);
+
+					if(css.top > $window.height())
+						css.top = $window.height();
+
+					if(css.left > $window.width())
+						css.left = $window.width();
+					
 					view.$el.offset(css);
-					console.log('post top');
-					console.log(view.$el.css('top'));
-					console.log('post left');
-					console.log(view.$el.css('left'));
-					console.log('post offset');
-					console.log(view.$el.offset());
 				},
             	function(e){
             		console.log('error', e);
             	},
-            	{frequency:100}
+            	{frequency:1000}
             );
 	    },
 	    onClose: function(){

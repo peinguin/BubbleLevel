@@ -7,21 +7,8 @@ define(['marionette', 'app/views/main'], function (Marionette, MyView) {
 		});
 
 		BubbleLevel.addInitializer(function(options){
-			navigator.accelerometer.getCurrentAcceleration(
-				function(coords){
-					coords.toJSON = function(){
-						return JSON.stringify({
-							"timestamp": this.timestamp,
-							"x": this.x,
-							"y": this.y,
-							"z": this.z
-						});
-					}
-					var myView = new MyView({model:coords});
-					BubbleLevel.mainView.show(myView);
-				},
-				function(){navigator.notification.alert('accelerometer failed');}
-			);
+            var myView = new MyView();
+            BubbleLevel.mainView.show(myView);
 		});
 
 		BubbleLevel.addInitializer(function(options){

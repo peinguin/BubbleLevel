@@ -13,12 +13,27 @@ define(['marionette', 'text!app/templates/main.htt'],function (Marionette, my_te
 						top:  Math.round(offset.top - acceleration.y),
 						left: Math.round(offset.left - acceleration.x)
 					};
+
+					if(css.top < 0)
+						css.top = 0;
+
+					if(css.left < 0)
+						css.left = 0;
+
+					var $window = $(window);
+
+					if(css.top > $window.height())
+						css.top = $window.height();
+
+					if(css.left > $window.width())
+						css.left = $window.width();
+					
 					view.$el.offset(css);
 				},
             	function(e){
             		console.log('error', e);
             	},
-            	{frequency:100}
+            	{frequency:1000}
             );
 	    },
 	    onClose: function(){

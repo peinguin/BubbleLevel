@@ -115,12 +115,14 @@ h1 {
 }
 
 #piptyc{
-    width: 10vh;
-    height: 10vh;
-    border-radius: 5vh;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
     background-color: #000;
     display: block;
-    top:50vh;
-    left:50vw;
+    top:50%;
+    left:50%;
+    margin-left: -50px;
+    margin-top: -50px;
     position: absolute;
 }
